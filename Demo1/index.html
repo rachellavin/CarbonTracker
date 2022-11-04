@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>D3 Page Template</title>
+        <script src="https://d3js.org/d3.v4.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <style>
+
+    header {
+    font: 150% TimesNewRoman;
+    font-weight: 540;
+    color: black;
+    letter-spacing: 0.15px;
+    line-height: 10mm;
+    margin-top: 5mm;
+    }
+
+    p {
+    font: 100% TimesNewRoman;
+    font-weight: ;
+    color: #9e9e9e;
+    line-height: 0mm;
+    margin-top: 5mm;
+    }
+
+    .note {
+      font: 70% TimesNewRoman;
+      font-weight: 200;
+      color: #9e9e9e;
+      line-height: 0mm;
+      margin-left: 90%;
+      text-align: right;
+    }
+
+    .source {
+      font: 60% TimesNewRoman;
+      font-weight: 200;
+      color: #9e9e9e;
+      line-height: 0mm;
+      margin-left: 65%;
+      text-align: right;
+    }
+
+    .x_axis .domain {
+      font-family: 300% "Times New Roman", Times, sans-serif;
+      font-weight: 500;
+      color: #9e9e9e;
+      stroke: #9e9e9e;
+    }
+
+    .y_axis .domain {
+      font-family: 300% "Times New Roman", Times, sans-serif;
+      font-weight: 500;
+      fill: red;
+      stroke: #9e9e9e;
+    }
+
+    </style>
+
+  <body>
+    <div id = "fruitDropdown"></div>
+    <div id= "yearDropdown"></div>
+
+
+            <header>How does my country's carbon emissions compare?</header>
+              <p>How countries around the world are trying to flatten their carbon curves</p>
+
+
+
+
+    <div id="graph"></div>
+
+
+
+    <p><span class="note">*Annotation</span></p>
+      <p><span class="source">*Chart: The Times and The Sunday Times. Source: Climate Watch</span></p>
+
+
+
+    <script src="Exploration7.js"></script>
+  </body>
+
+</html>
